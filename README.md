@@ -24,25 +24,25 @@ La web debía facilitar al usuario la interacción con la misma, es por ello que
 La parte central de la web será ocupada por la opción seleccionada por el usuario en la barra navegadora:
 
 **Inicio**: Slider que muestra las noticias de mayor relevancia.
-![Inicio](img/iniciobaja.jpg)
+![Inicio](src/img/iniciobaja.jpg)
 
 **Medallas**: Consta de dos interacciones. En la primera pantalla se muestra los logos de los Juegos Olimpicos separados por temporada (Verano/Invierno).
-![Medallas](img/medallasbaja.jpg)
+![Medallas](src/img/medallasbaja.jpg)
 
 Al seleccionar la Olímpiada deseada se mostrará el medallero correspondiente ordenada por la cantidad de medallas obtenidas por cada país.
-![Medallas](img/medallasbaja2.jpg)
+![Medallas](src/img/medallasbaja2.jpg)
 
 **Atletas**: Lista que muestra los datos mas importantes de todos los Atletas que participaron en los Juegos Olímpicos celebrados entre el año 2000 al 2016. Los datos se podrán ordenar en orden alfabetico.
-![Atletas](img/atletasbaja.jpg)
+![Atletas](src/img/atletasbaja.jpg)
 
 **Sedes Olímpicas**: Se muestra los logos de los Juegos Olimpicos de Verano e Invierno, cada uno a modo de boton redirigirá al usuario a su propia web.
-![Sedes Olímpicas](img/sedesbaja.jpg)
+![Sedes Olímpicas](src/img/sedesbaja.jpg)
 
 #### Prototipo de Alta fidelidad
 Previa investigación se eligieron colores que no saturen a la vista, de por si el tema incluye 5 colores relacionados a los aros olimpicos, sin embargo solo se eligió el color verde en combinación con un azul neutro.
 El prototipado del proyecto siempre se desarrolló a modo que cuando sea responsive no se altere el diseño del mismo.
 
-![Inicio Alta fidelidad](img/inicioalta.jpg)
+![Inicio Alta fidelidad](src/img/inicioalta.jpg)
 
 ## Objetivos de Aprendizaje
 
