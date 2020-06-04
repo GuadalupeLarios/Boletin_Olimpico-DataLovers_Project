@@ -6,7 +6,7 @@
 Dirigida especialmente para facilitar información a los Atletas que se preparan para competencias de alto rendimiento, también puede ser usada por el público en general por la variedad de su contenido.
 Esta web se actualiza de forma mensual añadiendo las últimas noticias sobre los Juegos Olímpicos en curso y por venir, también se podrá interactuar con una base de datos enfocada en los Atletas y su participación en Juegos Olimpicos de Verano e Invierno desarrollados entre los años 2000 al 2016.
 
-![Web](img/web1.png)
+![Web](src/img/web1.png)
 
 ## Historias de Usuario
 Teniendo en cuenta las necesidades de nuestro publico objetivo se desarrollaron 7 Historias de Usuario con la finalidad de que Boletín Olímpico sea un sitio web interactivo y con la mayor cantidad de información posible. [Aquí podrás ver el detalle de cada una de ellas.](https://trello.com/b/Nr2P4XT0/base-atletas)
