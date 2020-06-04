@@ -1,11 +1,184 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <title>Data Lovers</title>
-    <link rel="stylesheet" href="style.css" />
+            <meta charset="utf-8">
+            <title>Data Lovers</title>
+            <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
+
+      <header>
+            <div class="headerNombre">
+              <h1>Boletín OLÍMPICO</h1>
+            </div>
+            <p>Abril, 2020</p>
+            <img src="img/ribbon.png" alt="">
+
+      </header>
+
+      <nav class="menu">
+            <a href="#" class="barra" id="inicio">Inicio</a>
+            <a href="#" class="barra" id="medallero">Medallero</a>
+            <a href="#" class="barra" id="atletas">Atletas</a>
+            <a href="#" class="barra" id="deportes">Deportes</a>
+            <a href="#" class="barra" id="sedes">Sedes<br>Olímpicas</a>
+      </nav>
+
+      <main>
+        <div id="contenedorInicio" class="contenedorInicio">
+            <div id="barraInicio" class="menuInicio">
+              <ul>
+                  <li><img src="img/facemask.png" alt=""></li>
+                  <li><img src="img/rusiadoping.png" alt=""></li>
+                  <li><img src="img/women.png" alt=""></li>
+                  <li><img src="img/sharon.png" alt=""></li>
+              </ul>
+            </div>
+            </div>
+
+            <div id="barraMedallero" class="menuMedallero hide">
+              <div class="contenedorMedallas">
+                      <div id="summer" class="summer">
+                         <h2>JUEGO OLÍMPICOS VERANO</h2>
+                            <div class="select">
+                              <h5> Ciudad OLimpica </h5>
+                                <select id="ciudad" class="select-css">
+                                  <option value="">Sede Olímpica</option>
+                                  <option value="Sydney">Sydney 2000</option>
+                                  <option value="Athina">Atenas 2004</option>
+                                  <option value="Beijing">Beijing 2008</option>
+                                  <option value="London">London 2012</option>
+                                  <option value="Rio de Janeiro">Rio de Janeiro 2016</option>
+                                </select>
+                              <h5>Escoge la medalla</h5>
+                                <select id="medalla" class="select-css">
+                                  <option value="">medalla</option>
+                                  <option value="Silver" >Plata</option>
+                                  <option value="Gold" >Oro</option>
+                                  <option value="Bronze" >Bronce</option>
+                                </select>
+                              </div>
+                                  <img src="img/sidney2000.png" alt="Sidney 2000">
+                                  <img src="img/atenas2004.png" alt="Atenas 2004">
+                                  <img src="img/beijing2008.png" alt="Beijing 2008">
+                                  <img src="img/londres2012.png" alt="Londres 2012">
+                                  <img src="img/rio2016.png" alt="Rio 2016">
+                      </div>
+
+                      <div id="winter" class="winter">
+                        <h2>JUEGOS OLÍMPICOS INVIERNO</h2>
+                        <button id="btnSalt"><img src="img/salt2002.png" alt="Salt Lake 2002"></button>
+                        <button id="btnTurin"><img src="img/turin2006.jpg" alt="Turin 2006"></button>
+                        <button id="btnVncvr"><img src="img/vncvr2010.png" alt="Vancouver 2010"></button>
+                        <button id="btnSochi"><img src="img/sochi2014.jpg" alt="Sochi 2014"></button>
+                        <button id="btnPyeong"><img src="img/pyeong2018.png" alt="Pyeong Chang 2018"></button>
+                      </div>
+                </div>
+            </div>
+
+          <div id="contenedorAtletas" class="contenedorAtletas hide">
+            <p>Atletas que participaron en Olímpiadas de Verano e Invierno<br>2000-2016</p>
+            <select id="filtroAz" class="filtroAz" name="OrdenAZ">
+              <option value="a-z">Ordenar</option>
+              <option value="a-z">A-Z</option>
+              <option value="z-a">Z-A</option>
+            </select>
+            <button type="button" class="botonTop">Top</button>
+            <div id="datageneral" class="menuAtletas"></div>
+          </div>
+
+          <div id="barraDeportes" class="menuDeportes hide">
+            <div id="contenedorDeportes" class="contenedorDeportes">
+              <div id="summerd" class="summerd">
+              <h2>VERANO</h2>
+                <button class="botonDeporte"  data-deporte="Athletics"><img src="img/deportes/at.jpg"alt="Athletics" >Atletismo</button>
+                <button class="botonDeporte"  data-deporte="Badminton"><img src="img/deportes/bd.jpg" alt="Badminton">Bádminton</button>
+                <button class="botonDeporte"  data-deporte="Basketball"><img src="img/deportes/bk.png" alt="Basketball">Baloncesto</button>
+                <button class="botonDeporte"  data-deporte="Baseball"><img src="img/deportes/bsb.jpg" alt="Baseball">Béisbol</button>
+                <button class="botonDeporte"  data-deporte="Cycling "><img src="img/deportes/ct.jfif" alt="cycling ">Circuito de ciclismo</button>
+                <button class="botonDeporte"  data-deporte="Diving"><img src="img/deportes/dv.jfif" alt="Diving">Buceo</button>
+                <button class="botonDeporte"  data-deporte="Equestrianism"><img src="img/deportes/ec.jfif" alt="Equestrian Eventing">Evento ecuestre</button>
+                <button class="botonDeporte"  data-deporte="Equestrianism"><img src="img/deportes/ed.jfif" alt="Equestrian">Ecuestre doma</button>
+                <button class="botonDeporte"  data-deporte="Equestrianism"><img src="img/deportes/es.jfif" alt="Equestrian">Salto Ecuestre</button>
+                <button class="botonDeporte"  data-deporte="Football"><img src="img/deportes/fb.jfif" alt="Football">Fútbol Americano</button>
+                <button class="botonDeporte"  data-deporte="Fencing"><img src="img/deportes/fe.jfif" alt="Fencing">Esgrima</button>
+                <button class="botonDeporte"  data-deporte="Gymnastics"><img src="img/deportes/ga.png" alt="Gymnastic artistic">Gimnasia Artística</button>
+                <button class="botonDeporte"  data-deporte="Golf"><img src="img/deportes/go.webp" alt="Golf">Golf</button>
+                <button class="botonDeporte"  data-deporte="Rhythmic Gymnastics"><img src="img/deportes/gr.jfif" alt="Gymnastic Rhythmic">Gimnasia Rítmica</button>
+                <button class="botonDeporte"  data-deporte="Trampolining"><img src="img/deportes/gt.jfif" alt="Trampolining">Trampolín</button>
+                <button class="botonDeporte"  data-deporte="Handball"><img src="img/deportes/hb.png" alt="Handball">Balonmano</button>
+                <button class="botonDeporte"  data-deporte="Hockey"><img src="img/deportes/ho.png" alt="Hockey">Hockey</button>
+                <button class="botonDeporte"  data-deporte="Judo"><img src="img/deportes/ju.jfif" alt="Judo">Judo</button>
+                <button class="botonDeporte"  data-deporte="Karate"><img src="img/deportes/kte.jfif" alt="Karate">Karate</button>
+                <button class="botonDeporte"  data-deporte="Modern Pentathlon"><img src="img/deportes/mp.jfif" alt="Modern Pentathlon">Pentatlón Moderno</button>
+                <button class="botonDeporte"  data-deporte="Marathon"><img src="img/deportes/ow.jfif" alt="Marathon">Maratón de Natación</button>
+                <button class="botonDeporte"  data-deporte="Rowing"><img src="img/deportes/ro.jfif" alt="Rowing">Remo</button>
+                <button class="botonDeporte"  data-deporte="Rugby"><img src="img/deportes/ru.jfif" alt="Rugby">Rugby</button>
+                <button class="botonDeporte"  data-deporte="Sailing"><img src="img/deportes/sa.jfif" alt="Sailing">Navegación</button>
+                <button class="botonDeporte"  data-deporte="Shooting"><img src="img/deportes/sh.png" alt="Shooting">Disparo</button>
+                <button class="botonDeporte"  data-deporte="Skateboarding"><img src="img/deportes/skb.jfif" alt="Skateboarding">Skateboarding</button>
+                <button class="botonDeporte"  data-deporte="Surf"><img src="img/deportes/srf.jfif" alt="Surf">Surf</button>
+                <button class="botonDeporte"  data-deporte="Swimming"><img src="img/deportes/sw.jfif" alt="Swimming">Natación</button>
+                <button class="botonDeporte"  data-deporte="Synchronized Swimming"><img src="img/deportes/sy.jfif" alt="Artistic Swimming">Natación Artística</button>
+                <button class="botonDeporte"  data-deporte="Taekwondo"><img src="img/deportes/tk.jfif" alt="Taekwondo">Taekwondo</button>
+                <button class="botonDeporte"  data-deporte="Tennis"><img src="img/deportes/te.png" alt="Tennis">Tenis</button>
+                <button class="botonDeporte"  data-deporte="Archery"><img src="img/deportes/ar.jpg" alt="Archery">Tiro al arco</button>
+                <button class="botonDeporte"  data-deporte="Triathlon"><img src="img/deportes/tr.jfif" alt="Triathlon">Triatlón</button>
+                <button class="botonDeporte"  data-deporte="Volleyball"><img src="img/deportes/vo.png" alt="Volleyball">Voleybol</button>
+                <button class="botonDeporte"  data-deporte="Wrestling"><img src="img/deportes/wf.jfif" alt="Wrestling">Lucha Libre</button>
+                <button class="botonDeporte"  data-deporte="Wrestling Greco-Roman"><img src="img/deportes/wg.jfif" alt="wrestling greco-roman">Lucha grecorromana</button>
+                <button class="botonDeporte"  data-deporte="Weightlifting"><img src="img/deportes/wl.jfif" alt="Weightlifting">Levantamiento de Pesas</button>
+                <button class="botonDeporte"  data-deporte="Water Polo"><img src="img/deportes/wp.jfif" alt="Water Polo">Polo Acuático</button>
+              </div>
+
+              <div id="winterd" class="winterd">
+                <h2>INVIERNO</h2>
+                <button class="botonDeporte"  data-deporte="Skiing"><img src="img/deportes/as.jfif" alt="Skiing">Esqui</button>
+                <button class="botonDeporte"  data-deporte="Ice Hockey"><img src="img/deportes/ih.jfif" alt="Ice Hockey">Hockey sobre hielo</button>
+                <button class="botonDeporte"  data-deporte="Curling"><img src="img/deportes/cu.jfif" alt="Curling">Curling</button>
+                <button class="botonDeporte"  data-deporte="Speed Skating"><img src="img/deportes/ss.jfif" alt="Speed Skating">Patinaje velocidad</button>
+                <button class="botonDeporte"  data-deporte="Figure Skating"><img src="img/deportes/fs.png" alt="Figure Skating">Patinaje ar</button>
+                <button class="botonDeporte"  data-deporte="Bobsleigh"><img src="img/deportes/bs.jfif" alt="Bobsleigh">Bobsleigh</button>
+                <button class="botonDeporte"  data-deporte="Alpine Skiing"><img src="img/deportes/as.jfif" alt="Alpine Skiing">Esqui Alpino</button>
+                <button class="botonDeporte"  data-deporte="Biathlon"><img src="img/deportes/bt.jfif" alt="Biathlon">Biathlon</button>
+                <button class="botonDeporte"  data-deporte="Cross Country Skiing"><img src="img/deportes/cc.jfif" alt="Cross Country Skiing">Cross Country Skiing</button>
+                <button class="botonDeporte"  data-deporte="Luge"><img src="img/deportes/lg.jfif" alt="Luge">Luge</button>
+                <button class="botonDeporte"  data-deporte="Nordic Combined"><img src="img/deportes/nc.jfif" alt="Nordic Combined">Nordic Combined</button>
+                <button class="botonDeporte"  data-deporte="Short Track Speed Skating"><img src="img/deportes/st.jfif" alt="Short Track Speed Skating">Short Track Speed Skating</button>
+                <button class="botonDeporte"  data-deporte="Skeleton"><img src="img/deportes/sn.png" alt="Skeleton">Skeleton</button>
+                <button class="botonDeporte"  data-deporte="Ski Jumping"><img src="img/deportes/sj.png" alt="Ski Jumping">Ski Jumping</button>
+                <button class="botonDeporte"  data-deporte="Snowboarding"><img src="img/deportes/sb.jfif" alt="Snowboarding">Snowboarding</button>
+              </div>
+             </div>
+            </div>
+
+            <div id="barraSedes" class="menuSedes hide">
+                <a target="_blank" href="https://www.olympic.org/sydney-2000"><img src="img/sidney2000.png" alt="Sidney 2000"/></a>
+                <a target="_blank" href="https://www.athens2004.org"><img src="img/atenas2004.png" alt="Atenas 2004"/></a>
+                <a target="_blank" href="https://www.beijing-2008.org"><img src="img/beijing2008.png" alt="Beijing 2008"/></a>
+                <a target="_blank" href="https://www.olympic.org/london-2012"><img src="img/londres2012.png" alt="Londres 2012"/></a>
+                <a target="_blank" href="https://www.olympic.org/rio-2016"><img src="img/rio2016.png" alt="Rio 2016"/></a>
+                <a target="_blank" href="https://www.olympic.org/salt-lake-city-2002"><img src="img/salt2002.png" alt="Salt Lake 2002"/></a>
+                <a target="_blank" href="https://www.olympic.org/turin-2006"><img src="img/turin2006.jpg" alt="Turin 2006"/></a>
+                <a target="_blank" href="https://www.olympic.org/vancouver-2010"><img src="img/vncvr2010.png" alt="Vancouver 2010"/></a>
+                <a target="_blank" href="https://www.olympic.org/sochi-2014"><img src="img/sochi2014.jpg" alt="Sochi 2014"/></a>
+                <a target="_blank" href="https://www.olympic.org/pyeongchang-2018"><img src="img/pyeong2018.png" alt="Pyeong Chang 2018"/></a>
+             </div>
+
+      </main>
+
+  <footer>
+    <p>Patrocinadores:</p>
+        <div class="auspiciadores">
+             <a title="" href="http://www.asics.com"><img src="img/asics.png" alt="Asics"/></a>
+             <a title="" href="https://www.coca-cola.com/"><img src="img/cocacola.png" alt="Coca Cola"/></a>
+             <a title="" href="http://www.lining.com"><img src="img/lining.png" alt="Li-ning"/></a>
+             <a title="" href="https://www.technogym.com"><img src="img/technogym.png" alt="Technogym"/></a>
+             <a title="" href="https://www.omegawatches.com"><img src="img/omega.png" alt="Omega"/></a>
+        </div>
+  </footer>
+
     <div id="root"></div>
     <script src="main.js" type="module"></script>
   </body>
