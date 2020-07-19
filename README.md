@@ -24,19 +24,14 @@ La web debía facilitar al usuario la interacción con la misma, es por ello que
 La parte central de la web será ocupada por la opción seleccionada por el usuario en la barra navegadora:
 
 **Inicio**: Slider que muestra las noticias de mayor relevancia.
-![Inicio](src/img/iniciobaja.jpg)
 
 **Medallas**: Consta de dos interacciones. En la primera pantalla se muestra los logos de los Juegos Olimpicos separados por temporada (Verano/Invierno).
-![Medallas](src/img/medallasbaja.jpg)
 
 Al seleccionar la Olímpiada deseada se mostrará el medallero correspondiente ordenada por la cantidad de medallas obtenidas por cada país.
-![Medallas](src/img/medallasbaja2.jpg)
 
 **Atletas**: Lista que muestra los datos mas importantes de todos los Atletas que participaron en los Juegos Olímpicos celebrados entre el año 2000 al 2016. Los datos se podrán ordenar en orden alfabetico.
-![Atletas](src/img/atletasbaja.jpg)
 
 **Sedes Olímpicas**: Se muestra los logos de los Juegos Olimpicos de Verano e Invierno, cada uno a modo de boton redirigirá al usuario a su propia web.
-![Sedes Olímpicas](src/img/sedesbaja.jpg)
 
 #### Prototipo de Alta fidelidad
 Previa investigación se eligieron colores que no saturen a la vista, de por si el tema incluye 5 colores relacionados a los aros olimpicos, sin embargo solo se eligió el color verde en combinación con un azul neutro.
@@ -44,48 +39,13 @@ El prototipado del proyecto siempre se desarrolló a modo que cuando sea respons
 
 ![Inicio Alta fidelidad](src/img/inicioalta.jpg)
 
-## Objetivos de Aprendizaje
+Conoce más acerca de Boletín Olímpico [¡Aquí!](https://guadalupelarios.github.io/Descifrado-CaesarCipher_Project/src/)
 
-### UX
 
-- [ ] Diseñar la aplicación pensando y entendiendo al usuario.
-- [ ] Crear prototipos para obtener _feedback_ e iterar.
-- [ ] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
-- [ ] Planear y ejecutar _tests_ de usabilidad.
 
-### HTML y CSS
+##
 
-- [ ] Entender y reconocer por qué es importante el HTML semántico.
-- [ ] Identificar y entender tipos de selectores en CSS.
-- [ ] Entender como funciona `flexbox` en CSS.
-- [ ] Construir tu aplicación respetando el diseño planeado (maquetación).
 
-### DOM
+Proyecto realizado por Guadalupe Larios y Jael Rodriguez para **LABORATORIA, LIM012.**
 
-- [ ] Entender y reconocer los selectores del DOM (`querySelector` | `querySelectorAll`).
-- [ ] Manejar eventos del DOM. (`addEventListener`)
-- [ ] Manipular dinámicamente el DOM. (`createElement`, `appendchild`, `innerHTML`, `value`)
 
-### Javascript
-
-- [ ] Manipular arrays (`filter` | `map` | `sort` | `reduce`).
-- [ ] Manipular objects (key | value).
-- [ ] Entender el uso de condicionales (`if-else` | `switch`).
-- [ ] Entender el uso de bucles (`for` | `forEach`).
-- [ ] Entender la diferencia entre expression y statements.
-- [ ] Utilizar funciones (`parámetros` | `argumentos` | `valor de retorno`).
-- [ ] Entender la diferencia entre tipos de datos atómicos y estructurados.
-- [ ] Utilizar ES Modules (`import` | `export`).
-
-### Pruebas Unitarias (_testing_)
-- [ ] Testear funciones (funciones puras).
-
-### Git y GitHub
-- [ ] Ejecutar comandos de git (`add` | `commit` | `pull` | `status` | `push`).
-- [ ] Utilizar los repositorios de GitHub (`clone` | `fork` | `gh-pages`).
-- [ ] Colaborar en Github (`pull requests`).
-
-### Buenas prácticas de desarrollo
-- [ ] Organizar y dividir el código en módulos (Modularización).
-- [ ] Utilizar identificadores descriptivos (Nomenclatura | Semántica).
-- [ ] Utilizar linter para seguir buenas prácticas (ESLINT).
